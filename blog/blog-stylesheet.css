@@ -1,0 +1,46 @@
+h1 {
+	padding:0;
+	width: 50%;
+	float:left;
+	display: inline-block;
+	margin:0;
+}
+
+#header {
+	position: relative;
+}
+
+#date {
+	padding:10px 0 0 0;
+	width:50%;
+	text-align: right;
+	float:right;
+	display: inline-block;
+	margin: 0;
+	vertical-align: text-bottom;
+}
+
+#subtext {
+	float:left;
+	width:100%;
+	margin:0;
+	display: inline-block;
+	border-top: 3px solid black;
+	padding-top: 10px;
+}
+
+#primary {
+	padding: 15px 0 0 0;
+	margin: 0 2.5%;
+	display: inline-block;
+	width: 45%;
+	float: left;
+}
+
+#secondary {
+	padding:15px 0 0 0;
+	margin:0 2.5%;
+	display: inline-block;
+	width: 45%;
+	float: left;
+}

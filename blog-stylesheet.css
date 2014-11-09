@@ -1,0 +1,32 @@
+h1 {
+	padding:0;
+	width: 50%;
+	/*float:left;*/
+}
+
+#date {
+	padding:0;
+	width:50%;
+	text-align: right;
+	float:right;
+}
+
+#subtext {
+	float:left;
+	width:100%;
+}
+
+#primary {
+	padding:0;
+	margin: 0 2.5%;
+	display: inline-block;
+	width: 45%;
+	float: left;
+}
+
+#secondary {
+	padding:0;
+	margin:0 2.5%;
+	display: inline-block;
+	width: 45%;
+}
