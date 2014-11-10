@@ -1,4 +1,30 @@
-#me {
-	width: 200;
-	height: auto;
+h1 {
+	text-align: left;
+	font-size: 30px;
+	font-family: Verdana;
 }
+
+body {
+  font-family: Verdana;
+  font-size: 16px;
+}
+body {
+	background-repeat: no-repeat;
+	background-size: 3000px 1800px;
+}
+#me {
+	width: 200px;
+	height: auto;
+	top: 0;
+	left: 100px;
+
+}
+.sm {
+	align:center;
+}
+p {
+	font-size: 12px;
+	text-align: left;
+	font-family: Verdana;
+}
+
