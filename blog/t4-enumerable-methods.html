@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+	</head>
+	<div id="header">
+		<h1>The Method "max_by"</h1>
+		<h2 id="date">11/24/2014</h2>
+	</div>
+	<h2 id="subtext">Taking it TO THE MAX!</h2>
+
+	<p id="primary"> 
+		In your time using Ruby, there may come a time when you need to select an object from an array that is the maximum value: be that numarical size, or the length of a word. This could be incredibly complicated, but luckily Ruby's got you covered! The method "max_by" allows you to do that with very little pain or effort. Of course, it's not the only way you can accompish this(this is Ruby we're talking about after all; there's about 50 different ways to solve the same problem) but let's just focus on max_by.
+	</p>
+	<p id="secondary">
+		Let's say you're given the task of finding the longest word in a list of animals. You could just count all the letters in every word on your own and figure it out that way, but that;s really boring? Instead, you can write some code to do it for you! Pick a name for your animal list(or, you know, just name it animal_list) and make it equal to your big 'ol list of animal names. That's great and all, but now you need to make it TO THE MAX. By which of course I just mean find the longest name. You do that by typing the name of your list in the next line, and adding ".max_by { |x| x.length }"" to the end. This will go through the whole list of names and find the one with the maximum length! Awesome right? I know you want to text this sweet method goodness out! Go try it for yourself!
+	</p>
+</html>
