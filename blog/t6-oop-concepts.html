@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+	</head>
+	<div id="header">
+		<h1>Variable Scopes</h1>
+		<h2 id="date">12/06/2014</h2>
+	</div>
+	<h2 id="subtext">Where does that go again?</h2>
+
+	<p id="primary"> 
+		A variable scope desides where in a Ruby program you can access a variable. So it's the scope or the variable; who would have thought, right? Ruby has four types of variable scope, as well as one constant type. The four different types are local, global, instance, and class.
+		A local variable are defined by either starting with an _ or a lowercase letter. You can only access them wherever their placed. So if it's inside of a method, it can only be accessed inside that one method. This is good for things that you'll only need once.
+		A global variable is defined with a $ at the beginning. You can access them anywhere in the program. That being said, their use should be limited, as they can also be changed anywhere in the program, which can cause some nasty and confusing errors. 
+		The last two are tricky, and can easily be mixed up. 
+	</p>
+	<p id="secondary">
+		An instance variable is defined with @ at the beginning. It can be accessed anywhere inside the class it's defined in. The class variable can also be accessed anywhere inside the class in which it's defined, and is declared by add @@ to the beginning. The difference here is important.
+		An instance variable, when changed, will only be changed inside the method it was changed in. When a class variable is changed, that change is carried throughout the rest of the code.
+		So you make a class, and you have that @soda=6 inside of it. In a new method you call soda, then change it to 8. Soda is only equal to 8 inside that method, if you were to call it again in a different method, it would still be equal to 6. But, if it was @@soda=6, and you created a new method and changed soda's value to 8, any time you call soda again, even outside that method, it's value would still be 8.
+	</p>
+</html>
