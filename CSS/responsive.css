@@ -1,0 +1,72 @@
+@media (max-width: 1199px) {
+	body {
+	padding: 0 60px;
+	}
+}
+
+@media (max-width: 979px) {
+	body {
+	padding: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+	font-size:16px;
+	line-height:28px;
+	}
+
+	header {
+	padding: 30px 15px;
+	}
+
+	#logo {
+	float: none;
+	width: 100%;
+	}
+
+	#navigation {
+	float: none;
+	width: 100%;
+	margin-top:15px;
+	}
+
+
+	#hero {
+	padding: 15px 15px;
+	}
+
+	#content {
+	background: white;
+	padding: 30px 15px;
+	}
+
+	footer {
+	padding: 15px 15px;
+	}
+
+	nav ul li a {
+	font-size:18px;
+	}
+}
+
+@media (max-width: 479px) {
+	nav ul li a {
+	font-size:14px;
+	}
+
+	footer #copyright {
+	float: none;
+	width: 100%;
+	}
+
+	footer #social-links {
+	float: none;
+	margin-top: 10px;
+	width: 100%;
+	}
+}
+
+@media (max-width: 360px) {
+
+}

@@ -1,30 +1,137 @@
-h1 {
-	text-align: left;
-	font-size: 30px;
-	font-family: Verdana;
+body {
+	background-color: #decaa9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #333;
+	padding:0 210px;
 }
 
-body {
-  font-family: Verdana;
-  font-size: 16px;
+h1, h2, h3, h4, h5, h6 {
+	color: 444444;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
 }
-body {
-	background-repeat: no-repeat;
-	background-size: 3000px 1800px;
-}
-#me {
-	width: 200px;
-	height: auto;
-	top: 0;
-	left: 100px;
 
-}
-.sm {
-	align:center;
-}
 p {
-	font-size: 12px;
-	text-align: left;
-	font-family: Verdana;
+	line-height:32px;
 }
 
+.clear {
+	clear: both;
+	margin: 0;
+}
+
+header {
+	background: #4b6961;
+	padding: 30px 60px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgba(154, 198, 185, 1);
+	font-style: none;
+}
+
+#logo {
+	float: left;
+}
+
+#logo h1 {
+	text-align: left;
+	font-size: 32px;
+	margin: 0;
+}
+
+#navigation {
+	float: right;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+
+nav ul li a {
+	font-size:20px;
+}
+
+nav ul li:first-child {
+	padding: 10px 15px 10px 0px;
+}
+
+nav ul li:last-child {
+	padding: 10px 0px 10px 15px;
+}
+
+#hero {
+	background: #a1876e url('Images/swirl_pattern_transparent.png') repeat;
+	padding: 20px 60px;
+}
+
+#hero h3 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0;
+}
+
+#content {
+	background: white;
+	padding: 30px 60px;
+}
+
+.circle {
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+.alignleft {
+	float: left;
+	width: 125px;
+	height: auto;
+	margin: 20px 40px 20px 0;
+}
+
+#social {
+	padding: 0;
+	margin: 0;
+}
+
+#social li {
+	display: inline;
+}
+
+#social li img {
+	width:30px;
+}
+
+footer {
+	padding: 15px 60px;
+	background: #4b6961;
+}
+
+footer #copyright {
+	float: left;
+	font-size:14px;
+}
+
+footer #copyright p {
+	margin: 0;
+	color: white;
+}
+
+footer #social-links {
+	float: right;
+}
